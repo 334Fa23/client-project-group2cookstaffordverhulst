@@ -1,10 +1,17 @@
 body {
-    background-color: #4a6f4e;
 }
 
 header {
+    background-color: #4a6f4e;
+}
+
+titletown-logo {
     width: 25%;
     float: left;
+}
+
+footer {
+    background-color: #4a6f4e;
 }
 
 /*Styles for hamburger menu*/
