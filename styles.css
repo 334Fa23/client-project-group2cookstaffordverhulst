@@ -12,6 +12,12 @@ titletown-logo {
 
 footer {
     background-color: #4a6f4e;
+    color: #fff;
+    text-align: center;
+}
+
+.social {
+    color: #fff;
 }
 
 /*Styles for hamburger menu*/
