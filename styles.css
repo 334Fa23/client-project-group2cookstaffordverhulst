@@ -86,8 +86,9 @@ p {
     color: #fff;
 }
 
-.desktop {
-    color: #fff;
+centered {
+    align-content: center;
+    
 }
 
 /* Style rules for links */
@@ -169,7 +170,7 @@ header img {
     display: block;
 }
 
-.tablet-desktop,
+.desktop,
 #menu-links {
     display: none;
 }
@@ -296,4 +297,8 @@ header img {
     nav li a {
         padding: 1em 1em;
     }
+    
+    .desktop {
+    color: #fff;
+}
 }
