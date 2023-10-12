@@ -82,6 +82,14 @@ p {
 
 }
 
+.mobile-nav {
+    color: #fff;
+}
+
+.desktop {
+    color: #fff;
+}
+
 /* Style rules for links */
 
 a:link {
