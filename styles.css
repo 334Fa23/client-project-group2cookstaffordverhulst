@@ -46,6 +46,14 @@ nav li a {
     font-family: 'DM Sans', serif;
 }
 
+.mobile-nav {
+    color: #fff;
+}
+
+.desktop {
+    color: #fff;
+}
+
 main {
     clear: left;
     background-color: #fff;
@@ -157,17 +165,15 @@ header img {
     display: block;
 }
 
-.tablet-desktop,
+.desktop,
 #menu-links {
     display: none;
 }
 
 /* Media Query for tablet*/
 @media screen and (min-width: 630px) {
-    .tablet-desktop {
-        display: block;
-        color: #fff;
-        padding-bottom: 5em;
+    .desktop {
+        display: none;
     }
 
     .mobile {
@@ -175,7 +181,7 @@ header img {
     }
 
     .mobile-nav {
-        display: none;
+        display: block;
     }
 
     header {
@@ -186,10 +192,36 @@ header img {
         height: 150px;
     }
 
+    
+}
+
+/*Media Query for Desktop*/
+@media screen and (min-width: 769px) {
+    header {
+        width: 25%;
+        float: left;
+        padding-bottom: 3em;
+        background-color: #4a6f4e;
+        margin: 1em;
+    }
+
+    .titletown-logo {
+        height: auto;
+        width: 275px;
+    }
+
     nav {
         float: right;
         width: auto;
-        margin: 1em 1em 0 0;
+        margin: 8em 1em 0 0;
+    }
+    
+    .mobile-nav {
+        display: none;
+    }
+    
+    .desktop {
+        display: block;
     }
 
     nav li {
@@ -216,35 +248,5 @@ header img {
     nav li a:active {
         background-color: #fff;
         color: #0e502c;
-    }
-}
-
-/*Media Query for Desktop*/
-@media screen and (min-width: 769px) {
-    header {
-        width: 25%;
-        float: left;
-        padding-bottom: 3em;
-        background-color: #4a6f4e;
-        margin: 1em;
-    }
-
-    .titletown-logo {
-        height: auto;
-        width: 275px;
-    }
-
-    nav {
-        float: right;
-        width: auto;
-        margin: 8em 1em 0 0;
-    }
-
-    nav l1 {
-        border: none;
-    }
-
-    nav li a {
-        padding: 1em 1em;
     }
 }
