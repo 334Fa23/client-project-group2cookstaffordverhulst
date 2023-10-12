@@ -73,6 +73,10 @@ h1 {
     font-family: 'Lora', serif;
 }
 
+p {
+    font-family: 'DM Sans', serif;
+}
+
 .contact {
     font-family: 'DM Sans', serif;
 
@@ -107,13 +111,17 @@ header {
     position: sticky;
     top: 0;
     background-color: #4a6f4e;
-    height: 190px;
+    height: 150px;
 }
 
 header img {
     margin: auto;
 }
 
+.titletown-logo {
+    height: auto;
+    width: 200px;
+}
 
 /*Styles for hamburger menu*/
 .mobile-nav a {
@@ -158,6 +166,8 @@ header img {
 @media screen and (min-width: 630px) {
     .tablet-desktop {
         display: block;
+        color: #fff;
+        padding-bottom: 5em;
     }
 
     .mobile {
@@ -182,8 +192,6 @@ header img {
         margin: 1em 1em 0 0;
     }
 
-
-
     nav li {
         border-top: none;
         display: inline-block;
@@ -197,7 +205,6 @@ header img {
         padding: 1em 1em;
         display: block;
         text-align: center;
-
     }
 
     nav li a:hover {
@@ -217,9 +224,14 @@ header img {
     header {
         width: 25%;
         float: left;
-        padding-bottom: 0;
+        padding-bottom: 3em;
         background-color: #4a6f4e;
         margin: 1em;
+    }
+
+    .titletown-logo {
+        height: auto;
+        width: 275px;
     }
 
     nav {
@@ -234,6 +246,5 @@ header img {
 
     nav li a {
         padding: 1em 1em;
-
     }
 }
