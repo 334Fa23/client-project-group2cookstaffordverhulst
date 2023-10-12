@@ -200,12 +200,12 @@ header img {
         padding-bottom: 1em;
     }
 
-    .titletown-logo {
-        margin-top: 2em;
-        margin-right: 0;
-        height: auto;
-        width: 150px;
-    }
+.titletown-logo {
+    margin-top: 2em;
+    margin-right: 0;
+    height: auto;
+    width: 150px;
+}
 
 }
 
@@ -218,14 +218,13 @@ header img {
         background-color: #4a6f4e;
         margin: 1em;
     }
-
-    .titletown-logo {
-        margin-top: 2em;
-        margin-right: 0;
-        padding-bottom: 3em;
-        height: auto;
-        width: 150px;
-    }
+    
+.titletown-logo {
+    margin-top: 2em;
+    margin-right: 0;
+    height: auto;
+    width: 150px;
+}
 
     nav {
         float: right;
@@ -279,10 +278,12 @@ header img {
         margin: 1em;
     }
 
-    .titletown-logo {
-        height: auto;
-        width: 275px;
-    }
+  .titletown-logo {
+    margin-top: 2em;
+    margin-right: 0;
+    height: auto;
+    width: 150px;
+}
 
     nav {
         float: right;
