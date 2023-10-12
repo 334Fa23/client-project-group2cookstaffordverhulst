@@ -77,7 +77,7 @@ img {
     padding: 0.5em;
 }
 
-h1 {
+h2 {
     font-family: 'Lora', serif;
 }
 
@@ -87,7 +87,7 @@ p {
 
 .contact {
     font-family: 'DM Sans', serif;
-
+    font-size: 1em;
 }
 
 /* Style rules for links */
@@ -200,20 +200,22 @@ header img {
     header {
         width: 25%;
         float: left;
-        padding-bottom: 3em;
+        padding-bottom: 1em;
         background-color: #4a6f4e;
         margin: 1em;
     }
 
     .titletown-logo {
+        margin-top: 2em;
+        margin-right: 0;
         height: auto;
-        width: 275px;
+        width: 150px;
     }
 
     nav {
         float: right;
         width: auto;
-        margin: 8em 1em 0 0;
+        margin-top: 8em;
     }
     
     .mobile-nav {
@@ -222,6 +224,7 @@ header img {
     
     .desktop {
         display: block;
+        font-size: 0.8em;
     }
 
     nav li {
