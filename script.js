@@ -1,10 +1,13 @@
 //Hamburger menu function
-function hamburger() {
-    ver menu =document.getElementById("menu-links");
-    if(menu.style.display === "block" && logo.style.display === "none") {
-        menu.style.display = "none";
-        
-    } else {
-        menu.style.display = "block";
-    }
+function hamburger(){
+  var menu = document.getElementById("menu-links");
+  var logo = document.getElementById("tte-logo");
+
+  if(menu.style.display === "block" && logo.style.display === "none"){
+    menu.style.display = "none";
+    logo.style.display = "block";
+  } else{
+    menu.style.display = "block";
+    logo.style.display = "none";
+  }
 }

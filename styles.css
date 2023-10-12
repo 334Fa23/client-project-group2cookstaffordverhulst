@@ -1,27 +1,88 @@
-body {
+body,
+header,
+nav,
+main,
+footer,
+h1,
+div,
+img,
+ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
 }
 
-header {
+body {
     background-color: #4a6f4e;
 }
 
-titletown-logo {
+header {
     width: 25%;
     float: left;
 }
 
-footer {
-    background-color: #4a6f4e;
-    color: #fff;
+nav {
+    width: 70%;
+    float: right;
+    margin: 5em 3em 0 0;
+}
+
+nav ul {
+    list-style-image: none;
+    margin: 0;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1em;
+    font-family: 'DM Sans', serif;
+    font-weight: 400;
     text-align: center;
 }
 
-.social {
+nav li a {
+    display: block;
+    color: #0e502c;
+    text-align: center;
+    padding: 1em 1em;
+    text-decoration: none;
+    font-family: 'DM Sans', serif;
 }
 
+main {
+    clear: left;
+    background-color: #fff;
+    padding 2%;
+    font-size: 1.25em;
+}
+
+
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+
+/* Style rules for mobile*/
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #4a6f4e;
+    height: 190px;
+}
+
+header img {
+    margin: auto;
+}
+
+
 /*Styles for hamburger menu*/
-.mobile-nav a{
-    color: #fff;
+.mobile-nav a {
+    color: #0e502c;
     text-align: center;
     font-size: 2em;
     text-decoration: none;
@@ -29,23 +90,114 @@ footer {
     display: block;
 }
 
-nav{
-    padding: 1%;
-    margin-bottom: 1%;
-}
-
 .mobile-nav a.menu-icon {
     display: block;
     position: absolute;
     right: 0;
     top: 0;
-        
+
+}
+
+.mobile-nav a:hover {
+    background-color: #b4bfb1;
+    color: #0e502c;
+}
+
+.active {
+    background-color: #fff;
+    color: #0e502c;
+
 }
 
 .mobile {
+    display: block;
+}
+
+.tablet-desktop,
+#menu-links {
     display: none;
 }
 
-#menu-links {
-    display: none;
+/* Media Query for tablet*/
+@media screen and (min-width: 630px) {
+    .tablet-desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    header {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        background-color: #4a6f4e;
+        height: 150px;
+    }
+    
+    nav {
+        float: right;
+        width: auto;
+        margin: 1em 1em 0 0;
+    }
+
+
+
+    nav li {
+        border-top: none;
+        display: inline-block;
+    }
+
+    nav li:last-child {
+        border-right: none;
+    }
+
+    nav li a {
+        padding: 1em 1em;
+        display: block;
+
+    }
+    
+    nav li a:hover{
+        background-color: #b4bfb1;
+        color: #0e502c;
+    }
+    nav li a:active{
+        background-color: #fff;
+        color: #0e502c;
+    }
+}
+
+/*Media Query for Desktop*/
+@media screen and (min-width: 769px) {
+    header {
+        width: 25%;
+        float: left;
+        padding-bottom: 0;
+        background-color: #4a6f4e;
+        margin: 1em;
+    }
+
+    nav {
+        float: right;
+        width: auto;
+        margin: 8em 1em 0 0;
+        
+    }
+
+    nav l1 {
+        border: none;
+        
+    }
+
+    nav li a {
+        padding: 1em 1em;
+        
+
+    }
 }

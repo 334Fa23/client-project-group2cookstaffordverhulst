@@ -2,50 +2,67 @@
 <!-- This website template was created -->
 <html lang="en">
     <head>
-        <title>TitleTown Events</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="styles.css">
-	    <link rel="icon" type="image/png" sizes="32x32" href="images/TitleTownEvents-FullColor.png">
-    </head>
-    
-    <body>
-        <header>
-            <div class="titletown-logo">
-            <a href="index.html"><img src="images/TitleTownEvents-WhiteREV.png" alt="Titletown Events white logo" height="220" width="297"></a>
-            </div>
-        </header>
-        
+    <title>TitleTown Events</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/TitleTownEvents-FullColor.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="tte-logo">
+        <div class="titletown-logo">
+            <a href="index.html"><img src="images/TitleTownEvents-WhiteREV.png" alt="Titletown Events white logo" height=auto width="297"></a>
+        </div>
+    </header>
+
+    <div id="container">
         <nav class="mobile-nav">
             <div id="menu-links">
 
-            <a href="index.html">Home</a> &nbsp; &#9475; &nbsp;
-                <a href="events.html">Events</a> &nbsp; &#9475; &nbsp;
-                <a href="gallery.html">Gallery</a> &nbsp; &#9475; &nbsp;
-                <a href="external%20companies.html">External Companies</a> &nbsp; &#9475; &nbsp;
-                <a href="purchase.html">Purchase</a> &nbsp; &#9475; &nbsp;
+                <a href="index.html">Home</a>
+                <a href="events.html">Events</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="external%20companies.html">External Companies</a>
+                <a href="purchase.html">Purchase</a>
                 <a href="contact.html">Contact</a>
-                
-    </div>
-            <a class="menu-icon">
+
+            </div>
+            <a class="menu-icon" onclick="hamburger()">
+
                 <div>&#9776;</div>
             </a>
         </nav>
         
-        
-        <main>
-        </main>
-        
-        <footer>
-            <div class="contact">
-                    <h1>Titletown Events</h1>
-                    <a href="tel:+6608539902">660.853.9902</a>
-                <div class="social">
-                    <a href="https://twitter.com/TitletownEvents">X: TitletownEvents</a>
-                    <a href="https://www.instagram.com/titletowneventsllc/">Instagram: titletowneventsllc</a>
-                </div>
-                    <p>&copy; Copyright 2023. All Rights Reserved.</p>
+        <nav class="tablet-desktop">
+            <ul>
+                <li><a href="index.html">Home &nbsp; &#9475; &nbsp; </a></li>
+                <li><a href="events.html">Events &nbsp; &#9475; &nbsp; </a></li>
+                <li><a href="gallery.html">Gallery &nbsp; &#9475; &nbsp; </a></li>
+                <li><a href="external%20companies.html">External Companies &nbsp; &#9475; &nbsp; </a></li>
+                <li><a href="purchase.html">Purchase &nbsp; &#9475; &nbsp; </a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <main>
+    </main>
+
+    <footer>
+        <div class="contact">
+            <h1>Titletown Events</h1>
+            <a href="tel:+6608539902">660.853.9902</a>
+            <div class="social">
+                <a href="https://twitter.com/TitletownEvents">X: TitletownEvents</a>
+                <a href="https://www.instagram.com/titletowneventsllc/">Instagram: titletowneventsllc</a>
             </div>
-            
-        </footer>
-    </body>
-</html>
+            <p>&copy; Copyright 2023. All Rights Reserved.</p>
+        </div>
+        
+
+    </footer>
+    <script src="script.js"></script>
+</body></html>
