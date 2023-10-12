@@ -119,7 +119,9 @@ header {
     position: sticky;
     top: 0;
     background-color: #4a6f4e;
-    height: 150px;
+    height: auto;
+    width: 150px;
+    padding-bottom: 1em;
 }
 
 header img {
@@ -128,7 +130,11 @@ header img {
 
 .titletown-logo {
     margin-top: 2em;
+<<<<<<< Updated upstream
     margin-right: 0;
+=======
+    margin-bottom: 2em;
+>>>>>>> Stashed changes
     height: auto;
     width: 150px;
 }
@@ -192,11 +198,16 @@ header img {
         top: 0;
         background-color: #4a6f4e;
         height: 150px;
+        padding-bottom: 1em;
     }
 
     .titletown-logo {
         margin-top: 2em;
+<<<<<<< Updated upstream
         margin-right: 0;
+=======
+        margin-bottom: 2em;
+>>>>>>> Stashed changes
         height: auto;
         width: 150px;
     }
