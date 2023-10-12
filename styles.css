@@ -127,8 +127,10 @@ header img {
 }
 
 .titletown-logo {
+    margin-top: 2em;
+    margin-right: 0;
     height: auto;
-    width: 200px;
+    width: 150px;
 }
 
 /*Styles for hamburger menu*/
@@ -191,7 +193,14 @@ header img {
         background-color: #4a6f4e;
         height: 150px;
     }
-    
+
+    .titletown-logo {
+        margin-top: 2em;
+        margin-right: 0;
+        height: auto;
+        width: 150px;
+    }
+
 }
 
 /*Media Query for Desktop*/
@@ -216,11 +225,11 @@ header img {
         width: auto;
         margin-top: 8em;
     }
-    
+
     .mobile-nav {
         display: none;
     }
-    
+
     .desktop {
         display: block;
         font-size: 0.8em;
