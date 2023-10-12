@@ -111,7 +111,9 @@ header {
     position: sticky;
     top: 0;
     background-color: #4a6f4e;
-    height: 150px;
+    height: auto;
+    width: 150px;
+    padding-bottom: 1em;
 }
 
 header img {
@@ -119,8 +121,10 @@ header img {
 }
 
 .titletown-logo {
+    margin-top: 2em;
+    margin-right: 0;
     height: auto;
-    width: 200px;
+    width: 150px;
 }
 
 /*Styles for hamburger menu*/
@@ -184,12 +188,48 @@ header img {
         top: 0;
         background-color: #4a6f4e;
         height: 150px;
+        padding-bottom: 1em;
+    }
+
+    .titletown-logo {
+        margin-top: 2em;
+        margin-right: 0;
+        height: auto;
+        width: 150px;
+    }
+
+}
+
+/*Media Query for Desktop*/
+@media screen and (min-width: 950px) {
+    header {
+        width: 25%;
+        float: left;
+        padding-bottom: 1em;
+        background-color: #4a6f4e;
+        margin: 1em;
+    }
+
+    .titletown-logo {
+        margin-top: 2em;
+        margin-right: 0;
+        height: auto;
+        width: 150px;
     }
 
     nav {
         float: right;
         width: auto;
-        margin: 1em 1em 0 0;
+        margin-top: 8em;
+    }
+
+    .mobile-nav {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+        font-size: 0.8em;
     }
 
     nav li {
