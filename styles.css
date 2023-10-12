@@ -57,7 +57,13 @@ main {
     font-size: 1.25em;
 }
 
+footer {
+    background-color: #4a6f4e;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
 
+}
 
 
 img {
@@ -139,7 +145,7 @@ header img {
         background-color: #4a6f4e;
         height: 150px;
     }
-    
+
     nav {
         float: right;
         width: auto;
@@ -162,12 +168,13 @@ header img {
         display: block;
 
     }
-    
-    nav li a:hover{
+
+    nav li a:hover {
         background-color: #b4bfb1;
         color: #0e502c;
     }
-    nav li a:active{
+
+    nav li a:active {
         background-color: #fff;
         color: #0e502c;
     }
@@ -187,17 +194,17 @@ header img {
         float: right;
         width: auto;
         margin: 8em 1em 0 0;
-        
+
     }
 
     nav l1 {
         border: none;
-        
+
     }
 
     nav li a {
         padding: 1em 1em;
-        
+
 
     }
 }
