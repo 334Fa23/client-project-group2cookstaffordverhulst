@@ -87,7 +87,7 @@ p {
 
 .contact {
     font-family: 'DM Sans', serif;
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
 /* Style rules for links */
@@ -136,7 +136,7 @@ header img {
     font-family: 'Lora', serif;
     color: #fff;
     text-align: center;
-    font-size: 2em;
+    font-size: 1em;
     text-decoration: none;
     padding: 3%;
     display: block;
@@ -191,7 +191,6 @@ header img {
         background-color: #4a6f4e;
         height: 150px;
     }
-
     
 }
 
