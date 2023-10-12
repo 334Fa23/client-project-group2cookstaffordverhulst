@@ -196,7 +196,7 @@ header img {
 }
 
 /*Media Query for Desktop*/
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1200px) {
     header {
         width: 25%;
         float: left;
