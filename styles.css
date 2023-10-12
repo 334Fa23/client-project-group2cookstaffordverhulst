@@ -58,13 +58,46 @@ footer {
     padding: 10px;
     text-align: center;
     color: #fff;
-
 }
-
 
 img {
     max-width: 100%;
     display: block;
+}
+
+.social {
+    padding: 0.5em;
+}
+
+h1 {
+    font-family: 'Lora', serif;
+}
+
+.contact {
+    font-family: 'DM Sans', serif;
+
+}
+
+/* Style rules for links */
+
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:active {
+    color: #b4bfb1;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    background-color: #b4bfb1;
+    color: #0e502c;
 }
 
 
@@ -84,7 +117,8 @@ header img {
 
 /*Styles for hamburger menu*/
 .mobile-nav a {
-    color: #0e502c;
+    font-family: 'Lora', serif;
+    color: #fff;
     text-align: center;
     font-size: 2em;
     text-decoration: none;
@@ -190,17 +224,14 @@ header img {
         float: right;
         width: auto;
         margin: 8em 1em 0 0;
-
     }
 
     nav l1 {
         border: none;
-
     }
 
     nav li a {
         padding: 1em 1em;
-
 
     }
 }
