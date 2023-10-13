@@ -177,10 +177,8 @@ header img {
 
 /* Media Query for tablet*/
 @media screen and (min-width: 630px) {
-    .tablet-desktop {
-        display: block;
-        color: #fff;
-        padding-bottom: 5em;
+    .desktop {
+        display: none;
     }
 
     .mobile {
@@ -188,7 +186,7 @@ header img {
     }
 
     .mobile-nav {
-        display: none;
+        display: block;
     }
 
     header {
