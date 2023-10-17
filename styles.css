@@ -69,7 +69,7 @@ img {
     padding: 0.5em;
 }
 
-h1 {
+h1, h2, h3 {
     font-family: 'Lora', serif;
 }
 
