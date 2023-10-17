@@ -69,7 +69,9 @@ img {
     padding: 0.5em;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Lora', serif;
 }
 
@@ -88,7 +90,7 @@ p {
 
 centered {
     align-content: center;
-    
+
 }
 
 /* Style rules for links */
@@ -113,6 +115,17 @@ a:visited {
     color: #0e502c;
 }
 
+.centered {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    font-size: 100px;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Lora', serif;
+    text-shadow: 100px; 
+}
+
 
 /* Style rules for mobile*/
 header {
@@ -123,6 +136,8 @@ header {
     height: auto;
     width: 150px;
     padding-bottom: 1em;
+    text-emphasis-style: filled; 
+    
 }
 
 header img {
@@ -198,12 +213,12 @@ header img {
         padding-bottom: 1em;
     }
 
-.titletown-logo {
-    margin-top: 2em;
-    margin-right: 0;
-    height: auto;
-    width: 150px;
-}
+    .titletown-logo {
+        margin-top: 2em;
+        margin-right: 0;
+        height: auto;
+        width: 150px;
+    }
 
 }
 
@@ -216,13 +231,13 @@ header img {
         background-color: #4a6f4e;
         margin: 1em;
     }
-    
-.titletown-logo {
-    margin-top: 2em;
-    margin-right: 0;
-    height: auto;
-    width: 150px;
-}
+
+    .titletown-logo {
+        margin-top: 2em;
+        margin-right: 0;
+        height: auto;
+        width: 150px;
+    }
 
     nav {
         float: right;
@@ -276,12 +291,12 @@ header img {
         margin: 1em;
     }
 
-  .titletown-logo {
-    margin-top: 2em;
-    margin-right: 0;
-    height: auto;
-    width: 150px;
-}
+    .titletown-logo {
+        margin-top: 2em;
+        margin-right: 0;
+        height: auto;
+        width: 150px;
+    }
 
     nav {
         float: right;
@@ -296,8 +311,8 @@ header img {
     nav li a {
         padding: 1em 1em;
     }
-    
+
     .desktop {
-    color: #fff;
-}
+        color: #fff;
+    }
 }
