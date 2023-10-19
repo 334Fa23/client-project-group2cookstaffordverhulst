@@ -273,6 +273,31 @@ a:visited {
     text-decoration: none;
 }
 
+/* Style rules for contact page links */
+#contact-links a:link {
+    color: #b4bfb1;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#contact-links a:active {
+    color: #4a6f4e;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#contact-links a:visited {
+    color: #b4bfb1;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#contact-links a:hover {
+    color: #4a6f4e;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
 /* Style rules for mobile*/
 header {
     position: -webkit-sticky;
