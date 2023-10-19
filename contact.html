@@ -61,7 +61,7 @@
 
             <h2>TitleTown Events LLC</h2>
             <img src="images/TitleTownEvents-FullColor.png" alt="Titletown Events green and yellow logo" height=auto width="300">
-            
+
             <div id="contact-links">
                 <ul>
                     <li><a href="tel:+6608539902">660.853.9902</a></li>
@@ -69,6 +69,44 @@
                     <li><a href="https://www.instagram.com/titletowneventsllc/" target=_blank>Instagram: titletowneventsllc</a></li>
                 </ul>
             </div>
+
+            <div id="form">
+                
+                <h4>For any questions, comments, testimonials, etc., please fill out the form below. We look forward to hearing from you!</h4>
+                
+                <form><!-- Start Form -->
+
+                <fieldset>
+                    <legend>Customer Contact Information</legend>
+                    <label for="fName">First:</label>
+                    <input type="text" id="fName" name="fName" required>
+
+                    <label for="lName">Last:</label>
+                    <input type="text" id="lName" name="lName" required>
+
+                    <label for="contact">Phone Number or Email Address:</label>
+                    <input type="text" id="contact" name="contact" required>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Please Select One or More Boxes</legend>
+                    <label for="question"><input type="checkbox" id="question" name="question" value="Question">Question</label>
+                    <label for="comment"><input type="checkbox" id="comment" name="comment" value="Comment">Comment</label>
+                    <label for="concern"><input type="checkbox" id="concern" name="concern" value="Concern">Concern</label>
+                    <label for="other"><input type="checkbox" id="other" name="other" value="Otber">Other</label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Tell us here...</legend>
+                    <textarea id="textbox" name="textbox" rows="10" cols="50"></textarea>
+                </fieldset>
+                    
+                <input type="submit" id="submit" value="Submit">
+                    
+                </form>
+                
+            </div>
+
         </div>
     </main>
 
