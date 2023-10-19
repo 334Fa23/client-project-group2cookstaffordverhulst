@@ -69,7 +69,9 @@ img {
     padding: 0.5em;
 }
 
-h1 {
+h1,
+h2,
+h3 {
     font-family: 'Lora', serif;
 }
 
@@ -86,12 +88,12 @@ p {
     color: #fff;
 }
 
-centered {
+.centered {
     align-content: center;
-    
+
 }
 
-/* Style rules for links */
+/* Style rules for all links */
 
 a:link {
     color: #fff;
@@ -113,6 +115,163 @@ a:visited {
     color: #0e502c;
 }
 
+.centered {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    font-size: 100px;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Lora', serif;
+    text-align: center;
+    text-shadow:5px 2px 0 black;
+}
+
+/* Style rules for external companies links */
+
+#kupar-links a:link {
+    color: #b4bfb1;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#kupar-links a:active {
+    color: #4a6f4e;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#kupar-links a:visited {
+    color: #b4bfb1;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#kupar-links a:hover {
+    color: #4a6f4e;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#travel-links a:link {
+    color: #b4bfb1;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#travel-links a:active {
+    color: #4a6f4e;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#travel-links a:visited {
+    color: #b4bfb1;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#travel-links a:hover {
+    color: #4a6f4e;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#marriott-links a:link {
+    color: #b4bfb1;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#marriott-links a:active {
+    color: #4a6f4e;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#marriott-links a:visited {
+    color: #b4bfb1;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#marriott-links a:hover {
+    color: #4a6f4e;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#hilo-links a:link {
+    color: #b4bfb1;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#hilo-links a:active {
+    color: #4a6f4e;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#hilo-links a:visited {
+    color: #b4bfb1;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#hilo-links a:hover {
+    color: #4a6f4e;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#pearl-links a:link {
+    color: #b4bfb1;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#pearl-links a:active {
+    color: #4a6f4e;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#pearl-links a:visited {
+    color: #b4bfb1;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#pearl-links a:hover {
+    color: #4a6f4e;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#trail-links a:link {
+    color: #b4bfb1;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#trail-links a:active {
+    color: #4a6f4e;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#trail-links a:visited {
+    color: #b4bfb1;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#trail-links a:hover {
+    color: #4a6f4e;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
 
 /* Style rules for mobile*/
 header {
@@ -123,6 +282,8 @@ header {
     height: auto;
     width: 150px;
     padding-bottom: 1em;
+    text-emphasis-style: filled; 
+    
 }
 
 header img {
@@ -198,12 +359,12 @@ header img {
         padding-bottom: 1em;
     }
 
-.titletown-logo {
-    margin-top: 2em;
-    margin-right: 0;
-    height: auto;
-    width: 150px;
-}
+    .titletown-logo {
+        margin-top: 2em;
+        margin-right: 0;
+        height: auto;
+        width: 150px;
+    }
 
 }
 
@@ -216,13 +377,13 @@ header img {
         background-color: #4a6f4e;
         margin: 1em;
     }
-    
-.titletown-logo {
-    margin-top: 2em;
-    margin-right: 0;
-    height: auto;
-    width: 150px;
-}
+
+    .titletown-logo {
+        margin-top: 2em;
+        margin-right: 0;
+        height: auto;
+        width: 150px;
+    }
 
     nav {
         float: right;
@@ -276,12 +437,12 @@ header img {
         margin: 1em;
     }
 
-  .titletown-logo {
-    margin-top: 2em;
-    margin-right: 0;
-    height: auto;
-    width: 150px;
-}
+    .titletown-logo {
+        margin-top: 2em;
+        margin-right: 0;
+        height: auto;
+        width: 150px;
+    }
 
     nav {
         float: right;
@@ -296,8 +457,8 @@ header img {
     nav li a {
         padding: 1em 1em;
     }
-    
+
     .desktop {
-    color: #fff;
-}
+        color: #fff;
+    }
 }
