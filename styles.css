@@ -55,11 +55,13 @@ main {
     background-color: #fff;
     padding 2%;
     font-size: 1.25em;
+    margin-bottom: 100px;
 }
 
 footer {
     background-color: #4a6f4e;
-    padding: 30px;
+    padding: 20px;
+    padding-top: 0px;
     text-align: center;
     color: #fff;
 }
@@ -257,9 +259,13 @@ a:visited {
 }
 
 /* Style rules for external companies links */
+<<<<<<< Updated upstream
 
 #kupar-links a:link {
 <<<<<<< Updated upstream
+=======
+.grid-container a:link {
+>>>>>>> Stashed changes
     color: #fff;
 =======
     color: #b4bfb1;
@@ -268,14 +274,18 @@ a:visited {
     text-decoration: none;
 }
 
-#kupar-links a:active {
+.grid-container a:active {
     color: #4a6f4e;
     font-family: 'DM Sans', serif;
     text-decoration: none;
 }
 
+<<<<<<< Updated upstream
 #kupar-links a:visited {
 <<<<<<< Updated upstream
+=======
+.grid-container a:visited {
+>>>>>>> Stashed changes
     color: #fff;
 =======
     color: #b4bfb1;
@@ -284,6 +294,7 @@ a:visited {
     text-decoration: none;
 }
 
+<<<<<<< Updated upstream
 #kupar-links a:hover {
     color: #4a6f4e;
     font-family: 'DM Sans', serif;
@@ -445,6 +456,9 @@ a:visited {
 }
 
 #trail-links a:hover {
+=======
+.grid-container a:hover {
+>>>>>>> Stashed changes
     color: #4a6f4e;
     font-family: 'DM Sans', serif;
     text-decoration: none;
@@ -452,12 +466,7 @@ a:visited {
 
 <<<<<<< Updated upstream
 /* Style rules for external companies page */
-#maryville-travel,
-#kupar-tours,
-#marriott-hotel,
-#hilo-hotel,
-#pearl-harbor,
-#trail {
+.grid-container {
     background-color: #b4bfb1;
     margin: 3em;
 }
