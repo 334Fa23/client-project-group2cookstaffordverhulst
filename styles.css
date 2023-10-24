@@ -393,6 +393,11 @@ a:visited {
 #pearl-harbor,
 #trail {
     background-color: #b4bfb1;
+    margin: 3em;
+}
+
+ul {
+    list-style: none;
 }
 
 /* Style rules for contact page links */
