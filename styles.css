@@ -109,11 +109,6 @@ p {
     color: #fff;
 }
 
-.centered {
-    align-content: center;
-
-}
-
 /* Style rules for all links */
 
 a:link {
@@ -137,6 +132,7 @@ a:visited {
 }
 
 .centered {
+    align-content: center;
     position: absolute;
     top: 75%;
     left: 50%;
@@ -146,6 +142,7 @@ a:visited {
     font-family: 'Lora', serif;
     text-align: center;
     text-shadow: 5px 2px 0 black;
+    font-weight: normal;
 }
 
 /* Slideshow container */
@@ -469,11 +466,6 @@ header img {
         color: #0e502c;
     }
     
-    .centered {
-        top: 75%;
-        font-size: 100px;
-        text-shadow: 5px 2px 0 black;      
-    }
 }
 
 
