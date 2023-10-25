@@ -374,12 +374,8 @@ header img {
 }
 
 /* Media Query for tablet*/
-@media screen and (min-width: 630px) {
-    .desktop {
-        display: none;
-    }
-
-    .mobile {
+@media screen and (min-width: 600px) {
+    .desktop, .mobile {
         display: none;
     }
 
@@ -405,7 +401,7 @@ header img {
 
     .centered {
         font-size: 50px;
-        top: 38%;
+        top: 50%;
         left: 50%;
         text-shadow: 4px 2px 0 black;
     }
@@ -446,12 +442,6 @@ header img {
         top: 50%;
         left: 50%;
         text-shadow: 5px 3px 0 black;
-    }
-
-    nav {
-        float: right;
-        width: auto;
-        margin: 8em 1em 0 0;
     }
 
     nav {
