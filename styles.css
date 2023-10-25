@@ -272,7 +272,7 @@ a:visited {
 }
 
 /* Style rules for external companies page */
-.grid-container {
+.grid-item {
     background-color: #b4bfb1;
     margin: 3em;
 }
@@ -398,6 +398,18 @@ header img {
         height: auto;
         width: 150px;
     }
+    
+        .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        padding: 10px;
+    }
+
+    .grid-item {
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
 
 }
 
@@ -423,7 +435,7 @@ header img {
         width: auto;
         margin: 8em 1em 0 0;
     }
-    
+
     nav {
         float: right;
         width: auto;
@@ -465,7 +477,17 @@ header img {
         background-color: #fff;
         color: #0e502c;
     }
-    
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 10px;
+    }
+
+    .grid-item {
+        padding: 20px;
+        font-size: 20px;
+        text-align: center;
+    }
+
 }
-
-
