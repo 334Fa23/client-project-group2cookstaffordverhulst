@@ -515,13 +515,3 @@ header img {
     }
 
 }
-
-/*Media Query for Larger Desktops*/
-@media screen and (min-width: 870px) {
-    .centered {
-        font-size: 90px;
-        top: 60%;
-        left: 50%;
-        text-shadow: 5px 3px 0 black;
-    }
-}
