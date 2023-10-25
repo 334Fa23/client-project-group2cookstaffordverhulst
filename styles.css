@@ -134,14 +134,14 @@ a:visited {
 .centered {
     align-content: center;
     position: absolute;
-    top: 75%;
+    top: 35%;
     left: 50%;
-    font-size: 100px;
+    font-size: 35px;
     transform: translate(-50%, -50%);
     color: #fff;
     font-family: 'Lora', serif;
     text-align: center;
-    text-shadow: 5px 2px 0 black;
+    text-shadow: 3px 1px 0 black;
     font-weight: normal;
 }
 
@@ -272,11 +272,6 @@ a:visited {
 }
 
 /* Style rules for external companies page */
-.grid-item {
-    background-color: #b4bfb1;
-    margin: 3em;
-}
-
 ul {
     list-style: none;
 }
@@ -334,7 +329,6 @@ header {
     width: 150px;
     padding-bottom: 1em;
     text-emphasis-style: filled;
-
 }
 
 header img {
@@ -356,8 +350,10 @@ header img {
 
 .grid-item {
     padding: 20px;
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
+    background-color: #b4bfb1;
+    margin: 1em;
 }
 
 /*Styles for hamburger menu*/
@@ -429,6 +425,13 @@ header img {
         width: 150px;
     }
 
+    .centered {
+        font-size: 50px;
+        top: 38%;
+        left: 50%;
+        text-shadow: 4px 2px 0 black;
+    }
+
     .grid-container {
         display: grid;
         grid-template-columns: auto;
@@ -458,6 +461,13 @@ header img {
         margin-right: 0;
         height: auto;
         width: 150px;
+    }
+
+    .centered {
+        font-size: 85px;
+        top: 50%;
+        left: 50%;
+        text-shadow: 5px 3px 0 black;
     }
 
     nav {
@@ -520,4 +530,14 @@ header img {
         text-align: center;
     }
 
+}
+
+/*Media Query for Larger Desktops*/
+@media screen and (min-width: 870px) {
+    .centered {
+        font-size: 90px;
+        top: 60%;
+        left: 50%;
+        text-shadow: 5px 3px 0 black;
+    }
 }
