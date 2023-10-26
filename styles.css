@@ -94,6 +94,7 @@ p {
 
 h2 {
     padding-top: 0.5em;
+    font-size: 20px;
 }
 
 p {
@@ -110,7 +111,6 @@ p {
 
 .contact {
     font-family: 'DM Sans', serif;
-
 }
 
 .mobile-nav {
@@ -266,44 +266,49 @@ ul {
 }
 
 /* Style rules for contact page */
+#contact-page {
+    text-align: center;
+}
+
 #contact-logo {
-    float: left;
+    padding: 20px;
+    text-align: right;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #form {
-    margin-top: 150px;
-}
-
-#contact {
-    text-align: center;
+    margin: 75px 150px 0 150px;
 }
 
 /* Style rules for contact page links */
 #contact-links {
-    text-align: left;
-    padding-top: 20px;
+    display: block;
+    margin: 1em;
+    font-size: 18px;
 }
 
 #contact-links a:link {
-    color: #b4bfb1;
+    color: #4a6f4e;
     font-family: 'DM Sans', serif;
     text-decoration: none;
 }
 
 #contact-links a:active {
-    color: #4a6f4e;
-    font-family: 'DM Sans', serif;
-    text-decoration: none;
-}
-
-#contact-links a:visited {
     color: #b4bfb1;
     font-family: 'DM Sans', serif;
     text-decoration: none;
 }
 
-#contact-links a:hover {
+#contact-links a:visited {
     color: #4a6f4e;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
+#contact-links a:hover {
+    color: #b4bfb1;
     font-family: 'DM Sans', serif;
     text-decoration: none;
 }
@@ -456,6 +461,14 @@ header img {
 
     .slideshow-container {
         max-width: 75%;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+    
+    #contact-links {
+        font-size: 24px;
     }
 
 }
