@@ -316,7 +316,7 @@ form #submit {
     color: #fff;
 }
 
-.btn:a hover {
+.btn a:hover {
     color: #4a6f4e;
     background-color: #b4bfb1;
     font-family: 'DM Sans', serif;
