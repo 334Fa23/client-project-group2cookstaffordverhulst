@@ -316,6 +316,13 @@ form #submit {
     color: #fff;
 }
 
+.btn:a hover {
+    color: #4a6f4e;
+    background-color: #b4bfb1;
+    font-family: 'DM Sans', serif;
+    text-decoration: none;
+}
+
 /* Style rules for contact page links */
 #contact-links {
     display: block;
@@ -607,7 +614,7 @@ header img {
         margin: 1%;
         font-size: 15px;
     }
-    
+
     legend {
         color: #0e502c;
     }
