@@ -354,6 +354,12 @@ form #submit {
     text-decoration: none;
 }
 
+#form-header {
+    font-family: 'Lora', serif;
+    color: #0e502c;
+    font-size: 15px;
+}
+
 /* Style rules for contact page links */
 #contact-links {
     display: block;
@@ -688,6 +694,7 @@ events {
     #form-header {
         margin-top: 3em;
         margin-bottom: -0.5em;
+        font-size: 20px;
     }
 
     #Upcoming {
