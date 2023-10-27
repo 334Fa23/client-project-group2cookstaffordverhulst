@@ -50,6 +50,10 @@ nav li a {
     font-family: 'DM Sans', serif;
 }
 
+li {
+    font-family: 'DM Sans', serif;
+}
+
 main {
     clear: left;
     background-color: #fff;
