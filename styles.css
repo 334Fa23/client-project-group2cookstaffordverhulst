@@ -263,6 +263,7 @@ a:visited {
 /* Style rules for external companies page */
 ul {
     list-style: none;
+    font-family: 'DM Sans', serif;
 }
 
 /* Style rules for contact page */
