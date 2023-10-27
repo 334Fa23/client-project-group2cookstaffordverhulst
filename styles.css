@@ -447,18 +447,19 @@ header img {
     margin: 1em;
 }
 
-.grid-item2{
+.grid-item2 {
     padding: 20px;
     font-size: 10px;
     text-align: center;
     margin: 1em;
 }
+
 #Upcoming {
     padding-top: none;
 }
 
 iframe {
-    align-self: 
+    align-self:
 }
 
 /*Styles for hamburger menu*/
@@ -549,6 +550,10 @@ events {
         padding: 20px;
         font-size: 20px;
         text-align: center;
+    }
+
+    .grid-item2 {
+        font-size: 15px;
     }
 
     .slideshow-container {
@@ -648,8 +653,8 @@ events {
         font-size: 20px;
         text-align: center;
     }
-    
-    .grid-item2{
+
+    .grid-item2 {
         padding: 20px;
         font-size: 15px;
         text-align: center;
@@ -684,49 +689,66 @@ events {
         margin-top: 3em;
         margin-bottom: -0.5em;
     }
+
     #Upcoming {
-    padding-top: 150px;
+        padding-top: 150px;
+    }
 }
-}
+
 /* Responsive iFrame */
 
 @media (min-width: 550px) {
-  .responsive-iframe-container {padding-bottom: 75%;}
+    .responsive-iframe-container {
+        padding-bottom: 75%;
+    }
 }
+
 @media (max-width: 550px) {
-  .responsive-iframe-container {padding-bottom: 150%;}
+    .responsive-iframe-container {
+        padding-bottom: 150%;
+    }
 }
+
 .responsive-iframe-container {
-  position: relative;
-  padding-top: 0;
-  height: 0;
-  overflow: hidden;
+    position: relative;
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
 }
+
 .responsive-iframe-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
+
 /* Responsive iFrame */
 
 @media (min-width: 550px) {
-  .responsive-iframe-container {padding-bottom: 75%;}
+    .responsive-iframe-container {
+        padding-bottom: 75%;
+    }
 }
+
 @media (max-width: 550px) {
-  .responsive-iframe-container {padding-bottom: 150%;}
+    .responsive-iframe-container {
+        padding-bottom: 150%;
+    }
 }
+
 .responsive-iframe-container {
-  position: relative;
-  padding-top: 0;
-  height: 0;
-  overflow: hidden;
+    position: relative;
+    padding-top: 0;
+    height: 0;
+    overflow: hidden;
 }
+
 .responsive-iframe-container iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
