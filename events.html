@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <!-- This website template was created -->
 <html lang="en">
-    <head>
+
+<head>
     <title>TitleTown Events</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
@@ -15,78 +16,123 @@
         {
             box-sizing: border-box;
         }
+
         /* Set additional styling options for the columns*/
         .column {
-        float: left;
-        width: 50%;
+            float: left;
+            width: 50%;
         }
 
         .row:after {
-        content: "";
-        display: table;
-        clear: both;
+            content: "";
+            display: table;
+            clear: both;
         }
-        </style>
+    </style>
 
 </head>
 
 <body>
     <div class="header">
-    <header id="tte-logo">
-        <div class="titletown-logo">
-            <a href="index.html"><img src="images/TitleTownEvents-WhiteREV.png" alt="Titletown Events white logo" height=auto width="300"></a>
-        </div>
-    </header>
-
-    <div id="container">
-        <nav class="mobile-nav">
-            <div id="menu-links">
-
-                <a href="index.html">Home</a>
-                <a href="events.html">Events</a>
-                <a href="gallery.html">Gallery</a>
-                <a href="external%20companies.html">External Companies</a>
-                <a href="purchase.html">Purchase</a>
-                <a href="contact.html">Contact</a>
-
+        <header id="tte-logo">
+            <div class="titletown-logo">
+                <a href="index.html"><img src="images/TitleTownEvents-WhiteREV.png" alt="Titletown Events white logo" height=auto width="300"></a>
             </div>
-            <a class="menu-icon" onclick="hamburger()">
+        </header>
 
-                <div>&#9776;</div>
-            </a>
-        </nav>
+        <div id="container">
+            <nav class="mobile-nav">
+                <div id="menu-links">
+
+                    <a href="index.html">Home</a>
+                    <a href="events.html">Events</a>
+                    <a href="gallery.html">Gallery</a>
+                    <a href="external%20companies.html">External Companies</a>
+                    <a href="purchase.html">Purchase</a>
+                    <a href="contact.html">Contact</a>
+
+                </div>
+                <a class="menu-icon" onclick="hamburger()">
+
+                    <div>&#9776;</div>
+                </a>
+            </nav>
 
 
-        <nav class="desktop">
-            <ul>
-                <li><a href="index.html">Home</a></li> &nbsp; &#9475; &nbsp;
-                <li><a href="events.html">Events</a></li> &nbsp; &#9475; &nbsp;
-                <li><a href="gallery.html">Gallery</a></li> &nbsp; &#9475; &nbsp;
-                <li><a href="external%20companies.html">External Companies</a></li> &nbsp; &#9475; &nbsp;
-                <li><a href="purchase.html">Purchase</a></li> &nbsp; &#9475; &nbsp;
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </div>
+            <nav class="desktop">
+                <ul>
+                    <li><a href="index.html">Home</a></li> &nbsp; &#9475; &nbsp;
+                    <li><a href="events.html">Events</a></li> &nbsp; &#9475; &nbsp;
+                    <li><a href="gallery.html">Gallery</a></li> &nbsp; &#9475; &nbsp;
+                    <li><a href="external%20companies.html">External Companies</a></li> &nbsp; &#9475; &nbsp;
+                    <li><a href="purchase.html">Purchase</a></li> &nbsp; &#9475; &nbsp;
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </div>
 
     <main>
         <div class="container" id="events">
             <img src="images/eventpageheader.jpg" alt="Overview of beach image with overlaying text reading Upcoming Events" width="100%">
 
-            <div class="row">
+            <div class="grid-container">
+                <div class="grid-item" id="Upcoming">
+                    <h2>Upcoming Events</h2>
+                    <h4>Big Island Holiday Classic - December 16-19th 2023, Hilo</h4>
+                    <h4>Ulili Softball International - Feburary, 8-10th & 15-17th, Honolulu</h4>
+                    <h4>Ulili Softball International - March, 5-7th & 21-23rd & 28-30th, Honolulu</h4>
+                    <h4>Big Island Holiday Classic - November 29-30th / December 16-19th 2023, Hilo</h4>
 
-        <div class="column">
-          <div class="grid-container2">
-              <div class="grid-item">
-                <h2>Upcoming Events</h2>
-                <h4>Big Island Holiday Classic - December 16-19th 2023, Hilo</h4>
-                <h4>Ulili Softball International - Feburary, 8-10th & 15-17th, Honolulu</h4>
-                <h4>Ulili Softball International - March, 5-7th & 21-23rd & 28-30th, Honolulu</h4>
-                <h4>Big Island Holiday Classic - November 29-30th / December 16-19th 2023, Hilo</h4>
+                </div>
 
-          </div>
+
+                <div class="grid-item2">
+
+
+                    <h2>Basket Ball</h2>
+                    <p>"Big Island Holiday Classic"</p>
+                    <p>Ran in Hilo, Hawaii over two separate occasions </p>
+                    <ul>
+                        <li> The Friday and Saturday after Thanksgiving </li>
+                        <li> The week before Christmas </li>
+                        <li> Our goal is to regenerate the Big Island Holiday Classic into what it once was</li>
+                    </ul>
+                    <article class="main">
+                        <h2>Softball</h2>
+                        <p>"Ulili Softball International"</p>
+                        <p> Ran in Honolulu, Hawaii during the first two weeks of February and March</p>
+                        <ul>
+                            <li>February is D2 only teams</li>
+                            <li> March is D3 and NAIA teams</li>
+                            <li> We partner with the Hawaii Softball Foundation and Fastpitch Hawaii for this
+                                event </li>
+                            <li> Our goal is to create opportunities for the youth softball players in Hawaii </li>
+                        </ul>
+
+                    </article>
+                    <article class="main">
+                        <h2>Soccer</h2>
+                        <p> "Spring Break Soccer"</p>
+                        <p>Take teams out over their scheduled spring breaks</p>
+                        <ul>
+                            <li>Varies in team sizes </li>
+                            <li> Both Men and Women’s </li>
+                            <li> D1, D2, D3, NAIA </li>
+                        </ul>
+
+                    </article>
+                </div>
+            </div>
+
+            <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%234a6f4e&ctz=America%2FChicago&showTitle=1&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=1&showTz=0&title=TitleTown%20Events&src=amFja3N0YWNrMDgwOUBnbWFpbC5jb20&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&color=%230B8043" style="border:solid 1px #777" width="600" height="400" frameborder="0" scrolling="no"></iframe>
+
         </div>
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> Stashed changes
         <div class="responsive-iframe-container">
 <iframe src="https://calendar.google.com/calendar/embed?height=400&wkst=1&bgcolor=%234a6f4e&ctz=America%2FChicago&showTitle=1&showNav=1&showDate=1&showPrint=0&showTabs=0&showCalendars=1&showTz=0&title=TitleTown%20Events&src=amFja3N0YWNrMDgwOUBnbWFpbC5jb20&src=YWRkcmVzc2Jvb2sjY29udGFjdHNAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&src=ZW4udXNhI2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%2333B679&color=%230B8043" style="border:solid 1px #777" width="600" height="400" frameborder="0" scrolling="no"></iframe>
 </diV>
@@ -109,6 +155,7 @@
   </div>
 
     </div>
+>>>>>>> cd6af9de94f332cf2c0b0d2cd86a705e09c50a0f
 
     </main>
 
