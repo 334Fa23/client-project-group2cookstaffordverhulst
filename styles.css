@@ -315,12 +315,13 @@ form #submit {
     border-radius: 10px;
     margin-top: 2%;
     color: #fff;
+    font-family: 'Lora', serif;
 }
 
-.btn a:hover {
+form #submit:hover {
     color: #4a6f4e;
-    background-color: #b4bfb1;
-    font-family: 'DM Sans', serif;
+    background-color: #fff;
+    font-family: 'Lora', serif;
     text-decoration: none;
 }
 
