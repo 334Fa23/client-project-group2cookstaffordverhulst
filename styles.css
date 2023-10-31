@@ -616,6 +616,11 @@ events {
         font-size: 0.8em;
         color: #fff;
     }
+    
+    .desktop ul li {
+        display: inline-block;
+        padding-right: 0px;
+    }
 
     nav li {
         border-top: none;
