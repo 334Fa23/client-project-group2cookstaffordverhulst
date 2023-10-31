@@ -50,6 +50,10 @@ nav li a {
     font-family: 'DM Sans', serif;
 }
 
+li {
+    font-family: 'DM Sans', serif;
+}
+
 main {
     clear: left;
     background-color: #fff;
@@ -345,12 +349,13 @@ form #submit {
     border-radius: 10px;
     margin-top: 2%;
     color: #fff;
+    font-family: 'Lora', serif;
 }
 
-.btn:a hover {
-    color: #4a6f4e;
-    background-color: #b4bfb1;
-    font-family: 'DM Sans', serif;
+form #submit:hover {
+    color: #0e502c;
+    background-color: #fff;
+    font-family: 'Lora', serif;
     text-decoration: none;
 }
 
