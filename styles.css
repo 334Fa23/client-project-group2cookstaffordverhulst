@@ -466,11 +466,7 @@ header img {
 }
 
 #Upcoming {
-    padding-top: none;
-}
-
-iframe {
-    align-self:
+    padding-top: 0px;
 }
 
 /*Styles for hamburger menu*/
