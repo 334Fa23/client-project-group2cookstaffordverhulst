@@ -717,9 +717,8 @@ events {
 
 iframe {
   border: solid 1px;
-  height: 400;
-  width: 600;
-  scrolling: no;
+  height: 400px;
+  width: 600px;
 }
 
 @media (min-width: 550px) {
