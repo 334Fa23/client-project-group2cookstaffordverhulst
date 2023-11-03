@@ -412,7 +412,6 @@ form #submit:hover {
     color: white;
     margin: 20px auto 15px auto;
     font-family: 'Lora', serif;
-
 }
 
 .block:hover {
@@ -495,7 +494,6 @@ header img {
 .active {
     background-color: #fff;
     color: #0e502c;
-
 }
 
 .mobile {
@@ -574,7 +572,6 @@ events {
     #contact-links {
         font-size: 20px;
     }
-
 }
 
 /*Media Query for Desktop*/
@@ -710,15 +707,15 @@ events {
 
 /* Responsive iFrame */
 
- /* iframe {
+/* iframe {
   style="border:solid 1px #777" width="600" height="400" frameborder="0" scrolling="no"
  style="border:solid 1px #777" width="600" height="400" frameborder="0" scrolling="no"
 } */
 
 iframe {
-  border: solid 1px;
-  height: 400px;
-  width: 600px;
+    border: solid 1px;
+    height: 400px;
+    width: 600px;
 }
 
 @media (min-width: 550px) {
