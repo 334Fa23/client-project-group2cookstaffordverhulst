@@ -13,7 +13,7 @@ function hamburger() {
     }
 }
 
-let slideIndex = 1;
+var slideIndex = 1;
 showSlides(slideIndex);
 
 // Next/previous controls
@@ -27,8 +27,8 @@ function currentSlide(n) {
 }
 
 function showSlides(n) {
-    let i;
-    let slides = document.getElementsByClassName("mySlides");
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
     if (n > slides.length) {
         slideIndex = 1;
     }
