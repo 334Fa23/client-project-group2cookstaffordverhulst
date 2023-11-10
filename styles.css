@@ -241,7 +241,7 @@ a:visited {
 
 /* Style rules for home page links */
 .home-links a:link {
-    color: #fff;
+    color: #0e502c;
     text-decoration: none;
 }
 
@@ -251,36 +251,36 @@ a:visited {
 }
 
 .home-links a:visited {
-    color: #fff;
+    color: #0e502c;
     text-decoration: none;
 }
 
 .home-links a:hover {
-    color: #0e502c;
+    color: #fff;
     text-decoration: none;
 }
 
 /* Style rules for external companies links */
 .grid-container a:link {
-    color: #fff;
+    color: #0e502c;
     font-family: 'DM Sans', serif;
     text-decoration: none;
 }
 
 .grid-container a:active {
-    color: #4a6f4e;
+    color: #0e502c;
     font-family: 'DM Sans', serif;
     text-decoration: none;
 }
 
 .grid-container a:visited {
-    color: #fff;
+    color: #0e502c;
     font-family: 'DM Sans', serif;
     text-decoration: none;
 }
 
 .grid-container a:hover {
-    color: #4a6f4e;
+    color: #fff;
     font-family: 'DM Sans', serif;
     text-decoration: none;
 }
@@ -331,7 +331,7 @@ form,
     background-color: #b4bfb1;
     border-radius: 10px;
     font-family: 'DM Sans', serif;
-    color: #fff;
+    color: #0e502c;
 }
 
 label {
@@ -363,6 +363,10 @@ form #submit:hover {
     font-family: 'Lora', serif;
     color: #0e502c;
     font-size: 15px;
+}
+
+form #textbox {
+    font-family: 'DM Sans', serif;
 }
 
 /* Style rules for contact page links */
