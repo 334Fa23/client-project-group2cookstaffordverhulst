@@ -75,33 +75,35 @@
 
             <h4 class="style-header" id="form-header">For any questions, comments, testimonials, etc., please fill out the form below. We look forward to hearing from you!</h4>
 
-            <!-- Start Form -->
-            <fieldset>
-                <legend>Customer Contact Information</legend>
-                <label for="fName">First:</label>
-                <input type="text" id="fName" name="fName" required>
+            <form action="mailto:abean@titletownevents.org" method="post" enctype="text/plain">
+                <!-- Start Form -->
+                <fieldset>
+                    <legend>Customer Contact Information</legend>
+                    <label for="fName">First:</label>
+                    <input type="text" id="fName" name="fName" required>
 
-                <label for="lName">Last:</label>
-                <input type="text" id="lName" name="lName" required>
+                    <label for="lName">Last:</label>
+                    <input type="text" id="lName" name="lName" required>
 
-                <label for="contact">Phone Number or Email Address:</label>
-                <input type="text" id="contact" name="contact" required>
-            </fieldset>
+                    <label for="contact">Phone Number or Email Address:</label>
+                    <input type="text" id="contact" name="contact" required>
+                </fieldset>
 
-            <fieldset>
-                <legend>Please Select One or More Boxes</legend>
-                <label for="question"><input type="checkbox" id="question" name="question" value="Question">Question</label>
-                <label for="comment"><input type="checkbox" id="comment" name="comment" value="Comment">Comment</label>
-                <label for="concern"><input type="checkbox" id="concern" name="concern" value="Concern">Concern</label>
-                <label for="other"><input type="checkbox" id="other" name="other" value="Other">Other</label>
-            </fieldset>
+                <fieldset>
+                    <legend>Please Select One or More Boxes</legend>
+                    <label for="question"><input type="checkbox" id="question" name="question" value="Question">Question</label>
+                    <label for="comment"><input type="checkbox" id="comment" name="comment" value="Comment">Comment</label>
+                    <label for="concern"><input type="checkbox" id="concern" name="concern" value="Concern">Concern</label>
+                    <label for="other"><input type="checkbox" id="other" name="other" value="Other">Other</label>
+                </fieldset>
 
-            <fieldset>
-                <legend>Tell us here...</legend>
-                <label for="textbox"><textarea id="textbox" name="textbox" rows="10" cols="50"></textarea>.</label>
-            </fieldset>
+                <fieldset>
+                    <legend>Tell us here...</legend>
+                    <label for="textbox"><textarea id="textbox" name="textbox" rows="10" cols="50"></textarea>.</label>
+                </fieldset>
 
-            <input type="submit" id="submit" value="Submit" class="btn">
+                <input type="submit" id="submit" value="Submit" class="btn">
+            </form>
 
         </div>
     </main>
@@ -121,4 +123,6 @@
 
     </footer>
     <script src="script.js"></script>
-</body></html>
+</body>
+
+</html>
