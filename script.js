@@ -40,9 +40,3 @@ function showSlides(n) {
     }
     slides[slideIndex - 1].style.display = "block";
 }
-
-// Form
-const handleClick = (e) => {
-    e.preventDefault();
-    // window.open('mailto:scook4803@gmail.com?subject=TitleTown&body=${name}: ${message}');
-}
