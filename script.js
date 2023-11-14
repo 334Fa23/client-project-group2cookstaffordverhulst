@@ -40,3 +40,9 @@ function showSlides(n) {
     }
     slides[slideIndex - 1].style.display = "block";
 }
+
+// Form
+const handleClick = (e) => {
+    e.preventDefault();
+    window.open('mailto:${email}?subject=${subject}&body=${name}: ${message}');
+}
