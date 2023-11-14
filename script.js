@@ -44,5 +44,5 @@ function showSlides(n) {
 // Form
 const handleClick = (e) => {
     e.preventDefault();
-    window.open('mailto:${email}?subject=${subject}&body=${name}: ${message}');
+    // window.open('mailto:scook4803@gmail.com?subject=TitleTown&body=${name}: ${message}');
 }
