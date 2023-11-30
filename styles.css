@@ -403,9 +403,9 @@ form #textbox {
 
 /* Style Rules for buttons */
 .block {
-    display: block;
+    display: inline-block;
     align-content: center;
-    width: 75%;
+    max-width: 75%;
     border-width: 1px;
     border-color: #0e502c;
     background-color: #4a6f4e;
@@ -414,13 +414,40 @@ form #textbox {
     cursor: pointer;
     text-align: center;
     color: white;
-    margin: 20px auto 15px auto;
+    margin-bottom: 25px;
     font-family: 'Lora', serif;
 }
 
-.block:hover {
+.block:hover,
+.block1:hover {
     background-color: #fff;
     color: #0e502c;
+}
+
+.block1 {
+    display: inline-block;
+    align-content: center;
+    max-width: 75%;
+    border-width: 1px;
+    border-color: #0e502c;
+    background-color: #4a6f4e;
+    padding: 20px 28px;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    margin-bottom: 1px;
+    font-family: 'Lora', serif;
+}
+
+.PurchaseList1, .PurchaseList {
+    margin-bottom: 20px;
+}
+
+.payment {
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 2%;
 }
 
 /* Style rules for mobile*/
@@ -466,6 +493,20 @@ header img {
     font-size: 10px;
     text-align: center;
     margin: 1em;
+}
+
+.purchaseinfo {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.grid-item3 {
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    margin: .5em;
 }
 
 #Upcoming {
@@ -673,6 +714,19 @@ events {
         text-align: center;
     }
 
+    .purchaseinfo {
+        padding-left: 70px;
+        padding-right: 70px;
+        grid-template-columns: auto auto auto;
+    }
+
+    .payment {
+        padding-top: 5%;
+        text-align: center;
+        padding-bottom: 2%;
+    }
+
+
     .slideshow-container {
         max-width: 75%;
     }
@@ -707,6 +761,16 @@ events {
     #Upcoming {
         padding-top: 150px;
     }
+
+    .PurchaseList1 {
+        margin-bottom: 30px;
+    }
+
+    .PurchaseList {
+        margin-bottom: 22px;
+    }
+
+
 }
 
 /* Responsive iFrame */
