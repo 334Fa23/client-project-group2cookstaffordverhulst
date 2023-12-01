@@ -340,23 +340,15 @@ ul {
     font-family: 'Lora', serif;
     color: #0e502c;
     padding: 1em;
-    font-size: 18px;
+    font-size: 28px;
     margin: 0 1em;
-}
-
-#home-header {
     border-radius: 0;
     text-align: center;
-    font-family: 'Lora', serif;
-    color: #0e502c;
-    padding: 1em;
-    font-size: 28px;
     background-color: #fff;
 }
 
 /* Style rules for form elements */
-form,
-.style-header {
+form {
     font-size: 15px;
     display: block;
     margin-top: 2%;
@@ -453,8 +445,7 @@ form #textbox {
     box-sizing: border-box;
 }
 
-.block:hover,
-    {
+.block:hover {
     background-color: #fff;
     color: #0e502c;
 }
